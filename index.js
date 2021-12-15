@@ -9,7 +9,7 @@ const ObjectId = Schema.ObjectId
 app.use(cors())
 app.use(express.json())
 
-const db = mongoose.connect('mongodb+srv://david:0w79HNYF3q2JCz17@dodevcluster.r8asi.mongodb.net/sample_training?retryWrites=true&w=majority')
+const db = mongoose.connect('ConnectionString')
 .catch(err => console.error(err))
 
 
