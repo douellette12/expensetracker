@@ -1,3 +1,3 @@
 # expensetracker
 
-## Simple CRUD App built with React
+## CRUD App built with React
