@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "build": "node index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
