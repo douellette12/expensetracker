@@ -49,7 +49,8 @@ function ExpenseForm(props) {
                             value={expense.name} 
                             type="text" 
                             placeholder="Expense"
-                            onChange={handleChange}/>
+                            onChange={handleChange}
+                            required/>
                         </div>
                         <div className="form-group mb-3">
                             <input type="date" 
@@ -57,7 +58,8 @@ function ExpenseForm(props) {
                             id="date"
                             name="date"
                             value={expense.date} 
-                            onChange={handleChange}/>
+                            onChange={handleChange}
+                            required/>
                         </div>
                         <div className="form-group mb-3">
                             <input type="number" 
@@ -66,7 +68,8 @@ function ExpenseForm(props) {
                             id="amount"
                             name="amount"
                             value={expense.amount} 
-                            onChange={handleChange}/>
+                            onChange={handleChange}
+                            required min="0"/>
                         </div>
                         <button type="submit" className="btn btn-success mb-3">Add Expense</button>
                     </form>
